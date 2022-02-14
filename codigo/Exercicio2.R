@@ -1,3 +1,4 @@
+library(readxl)
 exercicio2 = read_excel("./dados/exercicio2.xls")
 x = exercicio2$`Casas`
 

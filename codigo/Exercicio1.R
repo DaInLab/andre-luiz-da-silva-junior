@@ -1,3 +1,4 @@
+library('readxl')
 exercicio1 = read_excel("./dados/exercicio1.xls")
 x = exercicio1$`Taxas de juros`
 
@@ -36,6 +37,8 @@ data <- data.frame(
   Valor=c("Media","Mediana","Máximo","Minimo") ,  
   Media=c(media,mediana,maximo,minimo)
 )
+
+library(ggplot2)
 g <- ggplot(data,aes(x = Valor,y = Media))
 g + geom_bar(width = 0.2,fill = "green",colour = "green", stat= "identity")
 
