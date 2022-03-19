@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 library(readxl)
+=======
+>>>>>>> 3df6e0c40e816b78848e288334fd200e79ff2b8e
 exercicio4 = read_excel("./dados/exercicio4.xls")
 x = exercicio4$`Salários`
 range(x)

@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 library(readxl)
+=======
+>>>>>>> 3df6e0c40e816b78848e288334fd200e79ff2b8e
 exercicio6 = read_excel("./dados/exercicio6.xls")
 x = exercicio6$`Nº pessoas`
 y = exercicio6$`Qualidade`

@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 library(readxl)
+=======
+>>>>>>> 3df6e0c40e816b78848e288334fd200e79ff2b8e
 exercicio8 = read_excel("./dados/exercicio8.xls")
 matrix <- data.matrix(exercicio8)
 x <- as.vector(matrix)
